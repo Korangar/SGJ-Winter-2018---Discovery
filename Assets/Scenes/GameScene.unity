@@ -5380,7 +5380,6 @@ PrefabInstance:
       propertyPath: otherPlayer
       value: 
       objectReference: {fileID: 1091854621}
-<<<<<<< HEAD:Assets/Scenes/SceneNonVR.unity
     - target: {fileID: 4610079557281841073, guid: 212235235c1864242bd8f25165a2d46b,
         type: 3}
       propertyPath: m_IsActive
@@ -5391,21 +5390,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-=======
     - target: {fileID: 9111716957536171652, guid: 212235235c1864242bd8f25165a2d46b,
         type: 3}
       propertyPath: otherPlayer
       value: 
       objectReference: {fileID: 2112078881}
-<<<<<<< HEAD
-    - target: {fileID: 5749304316404588985, guid: 212235235c1864242bd8f25165a2d46b,
-        type: 3}
-      propertyPath: volumeLayer.m_Bits
-      value: 131072
-      objectReference: {fileID: 0}
-=======
->>>>>>> e93ada3470240c4b7f0f91f323332975b67d3265:Assets/Scenes/GameScene.unity
->>>>>>> 58d166abe30825675243a7292253dd19219d352a
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 212235235c1864242bd8f25165a2d46b, type: 3}
 --- !u!1001 &8828703562973430948
@@ -5489,7 +5478,6 @@ PrefabInstance:
         type: 3}
       propertyPath: otherPlayer
       value: 
-<<<<<<< HEAD:Assets/Scenes/SceneNonVR.unity
       objectReference: {fileID: 1091854621}
     - target: {fileID: 4547880881028940061, guid: 64cff50f0efbcfe47b1b0f533700c9dc,
         type: 3}
@@ -5501,16 +5489,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 1997455821}
-<<<<<<< HEAD
     - target: {fileID: 9036898824117061670, guid: 64cff50f0efbcfe47b1b0f533700c9dc,
         type: 3}
       propertyPath: volumeLayer.m_Bits
       value: 262144
       objectReference: {fileID: 0}
-=======
->>>>>>> e93ada3470240c4b7f0f91f323332975b67d3265:Assets/Scenes/GameScene.unity
->>>>>>> 58d166abe30825675243a7292253dd19219d352a
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64cff50f0efbcfe47b1b0f533700c9dc, type: 3}

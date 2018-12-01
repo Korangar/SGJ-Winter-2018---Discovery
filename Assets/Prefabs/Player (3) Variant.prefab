@@ -108,8 +108,6 @@ PrefabInstance:
       value: Player (3) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1528378931831172820}
-<<<<<<< HEAD
-=======
       propertyPath: m_Name
       value: Player (3) Variant
       objectReference: {fileID: 0}
@@ -131,7 +129,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
->>>>>>> 58d166abe30825675243a7292253dd19219d352a
       propertyPath: m_Name
       value: Player (3) Variant
       objectReference: {fileID: 0}
