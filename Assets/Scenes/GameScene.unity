@@ -10214,6 +10214,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: volumeLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4116522097800750247, guid: aa2bc6e350ee61243a8196408ea89b40,
         type: 3}
       propertyPath: m_Name
@@ -10279,10 +10283,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: volumeLayer.m_Bits
-      value: 256
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8892150407568241018, guid: aa2bc6e350ee61243a8196408ea89b40, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aa2bc6e350ee61243a8196408ea89b40, type: 3}
@@ -10323,7 +10323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 73193530698f16845920c8253d9fd4e4, type: 2}
+  profile: {fileID: 11400000, guid: f0de2f68b11c04b47889d310aa3de175, type: 2}
 --- !u!198 &800674037626913004
 ParticleSystem:
   m_ObjectHideFlags: 0
