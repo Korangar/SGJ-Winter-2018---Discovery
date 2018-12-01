@@ -5088,7 +5088,6 @@ PrefabInstance:
       propertyPath: otherPlayer
       value: 
       objectReference: {fileID: 1628574120}
-<<<<<<< HEAD:Assets/Scenes/SceneNonVR.unity
     - target: {fileID: 2378918141447918716, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_RootOrder
@@ -5129,13 +5128,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
-=======
-    - target: {fileID: 6662572027947729630, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
-        type: 3}
-      propertyPath: otherPlayer
-      value: 
-      objectReference: {fileID: 2112078881}
->>>>>>> e93ada3470240c4b7f0f91f323332975b67d3265:Assets/Scenes/GameScene.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce1737ae9f470a44865d9b0b0c30ada, type: 3}
 --- !u!1001 &642069173712356106
