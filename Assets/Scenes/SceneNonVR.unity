@@ -5135,6 +5135,26 @@ PrefabInstance:
       propertyPath: m_AutoBraking
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce1737ae9f470a44865d9b0b0c30ada, type: 3}
 --- !u!1001 &4170407621447275857

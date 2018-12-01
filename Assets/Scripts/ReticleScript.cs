@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ReticleScript : MonoBehaviour
 {
+    public float checkDistance = 10;
+    public float blendDistance = 2;
     public PlayerScript otherPlayer;
 
     private Vector3 vec;
@@ -13,7 +15,7 @@ public class ReticleScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<SpriteRenderer>();
+        rend = GetComponent<SpriteRenderer>();
         rend.color = otherPlayer.myColor; 
     }
 
@@ -21,18 +23,10 @@ public class ReticleScript : MonoBehaviour
     void Update()
     {
         NormilizedVector();
-        transform.position = transform.parent.position + normVec * 10;
+        transform.position = transform.parent.position + normVec * checkDistance;
         transform.LookAt(otherPlayer.transform);
         transform.rotation *= Quaternion.Euler(90, 0, 0);
-        if (vec.magnitude < 10)
-        {
-            rend.enabled = false;
-        }
-        else
-        {
-
-            rend.enabled = true;
-        }
+        rend.enabled = vec.magnitude > checkDistance+blendDistance;
     }
 
 
