@@ -90,8 +90,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  cameraTilt: 15
-  tiltSmooth: 0.2
+  cameraTilt: 5
+  tiltSmooth: 0.05
 --- !u!54 &899758056854338751
 Rigidbody:
   m_ObjectHideFlags: 0
