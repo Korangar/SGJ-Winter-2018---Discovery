@@ -11,28 +11,39 @@ public class ReticleScript : MonoBehaviour
     private Vector3 vec;
     private Vector3 normVec;
     private SpriteRenderer rend;
+    private SpriteRenderer circleRenderer;
 
-    // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
-        rend.color = otherPlayer.myColor; 
+        rend.color = otherPlayer.myColor;
+        for (int i = 0; i < otherPlayer.transform.childCount; ++i)
+        {
+            Transform child = otherPlayer.transform.GetChild(i);
+            if (child.gameObject.layer == gameObject.layer)
+            {
+                circleRenderer = child.GetComponent<SpriteRenderer>();
+                break;
+            }
+        }
+        circleRenderer.enabled = false;
+        circleRenderer.color = otherPlayer.myColor;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        NormilizedVector();
+        NormalizedVector();
         transform.position = transform.parent.position + normVec * checkDistance;
         transform.LookAt(otherPlayer.transform);
         transform.rotation *= Quaternion.Euler(90, 0, 0);
         rend.enabled = vec.magnitude > checkDistance+blendDistance;
+        circleRenderer.enabled = !rend.enabled;
     }
 
 
-    void NormilizedVector()
+    void NormalizedVector()
     {
-        vec = otherPlayer.transform.position - transform.parent.position;
+            vec = otherPlayer.transform.position - transform.parent.position;
          normVec = (vec).normalized;
     }
 }
