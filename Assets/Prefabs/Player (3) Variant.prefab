@@ -39,6 +39,30 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 2908704027419297330}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908704027419297330}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908704027419297330}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_CullingMask.m_Bits
+      value: 12599
+      objectReference: {fileID: 0}
     - target: {fileID: 1528378931497783135}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0.5
@@ -54,6 +78,26 @@ PrefabInstance:
     - target: {fileID: 1528378931831172820}
       propertyPath: m_Name
       value: Player (3) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931831172820}
+      propertyPath: m_Name
+      value: Player (3) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447598353188277902}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460806690934957816}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: input
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900306990661266724}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -94,6 +138,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105188385449204727, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105188385449204727, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce1737ae9f470a44865d9b0b0c30ada, type: 3}
@@ -136,6 +190,12 @@ GameObject:
 --- !u!1 &3447598353188277902 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4574832172683449163, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+    type: 3}
+  m_PrefabInstance: {fileID: 1199441777116913093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &2908704027419297330 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4105188385449204727, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
     type: 3}
   m_PrefabInstance: {fileID: 1199441777116913093}
   m_PrefabAsset: {fileID: 0}
