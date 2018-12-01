@@ -218,7 +218,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796415372237177737}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 32.49, z: 0}
+  m_LocalPosition: {x: 0, y: 37.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400997914545877783}
@@ -1057,7 +1057,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5267,10 +5267,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: chicken character red runcyclefbx
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 8b7f92b8bdcd6ec4b8b436ba37362106, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b2a1e84dc99edf041ad6c9d9d3cefb5e, type: 2}
     - target: {fileID: 400002, guid: 8b7f92b8bdcd6ec4b8b436ba37362106, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5315,6 +5311,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8b7f92b8bdcd6ec4b8b436ba37362106, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b2a1e84dc99edf041ad6c9d9d3cefb5e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b7f92b8bdcd6ec4b8b436ba37362106, type: 3}
 --- !u!4 &4238282467457602244 stripped
@@ -5663,15 +5663,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ebe0420718f0e94e914b03918920873, type: 3}
---- !u!4 &2378918141447918716 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5426572633238401234, guid: 9ebe0420718f0e94e914b03918920873,
-    type: 3}
-  m_PrefabInstance: {fileID: 7659658132267443374}
-  m_PrefabAsset: {fileID: 0}
 --- !u!212 &4105188385449204727 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 5959420552324710233, guid: 9ebe0420718f0e94e914b03918920873,
+    type: 3}
+  m_PrefabInstance: {fileID: 7659658132267443374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2378918141447918716 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5426572633238401234, guid: 9ebe0420718f0e94e914b03918920873,
     type: 3}
   m_PrefabInstance: {fileID: 7659658132267443374}
   m_PrefabAsset: {fileID: 0}
