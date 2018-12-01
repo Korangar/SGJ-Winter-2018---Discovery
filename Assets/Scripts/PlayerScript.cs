@@ -50,7 +50,10 @@ public class PlayerScript : MonoBehaviour
         float moveZ = Input.GetAxis("Vertical " + ((int) input + 1));
         Vector3 move = new Vector3(moveX, 0, moveZ);
         agent.Move(move * movementSpeed * Time.deltaTime);
-        animator.SetBool("Running", move.sqrMagnitude > 0);
+
+        bool moving = move.sqrMagnitude > 0;
+        animator.SetBool("Running", moving);
+        if (moving)animator.transform.rotation = Quaternion.LookRotation(move);
 
         if (Input.GetButtonDown("Signal " + ((int)input + 1)))
             ShootSignal();
