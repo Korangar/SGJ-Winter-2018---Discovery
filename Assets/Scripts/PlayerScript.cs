@@ -35,6 +35,7 @@ public class PlayerScript : MonoBehaviour
         trail.endColor = myColor;
 
         cooldownProgress.color = myColor;
+        cooldownProgress.material.SetFloat("_Progress", -Mathf.PI);
     }
 
     void Update()
@@ -42,7 +43,7 @@ public class PlayerScript : MonoBehaviour
         if (cool > 0)
         {
             cool -= Time.deltaTime;
-            cooldownProgress.material.SetFloat("_Progress", cool / cooldown * Mathf.PI * 2);
+            cooldownProgress.material.SetFloat("_Progress", Mathf.PI * 2 * (cool / cooldown - 0.5F));
             if (cool <= 0)
             {
                 cool = 0;
@@ -75,6 +76,7 @@ public class PlayerScript : MonoBehaviour
         signal.Emit(par, 10);
         cool = cooldown;
         cooldownProgress.enabled = true;
+        cooldownProgress.material.SetFloat("_Progress", -Mathf.PI);
     }
 
     private void OnTriggerEnter(Collider other)
