@@ -46,6 +46,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (other.CompareTag("Finish"))
         {
+            FindObjectOfType<GoalCameraAnimation>().StartAnimation();
             ShootSignal();
             Debug.Log(gameObject.name + " Finished the game!");
         }
