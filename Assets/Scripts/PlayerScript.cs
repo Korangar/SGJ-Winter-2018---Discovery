@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -7,8 +8,13 @@ public class PlayerScript : MonoBehaviour
     public float movementSpeed = 1;
     public Color myColor;
 
+    public float cooldown = 20;
+    public UnityEvent OnCooldownOver;
+
     private NavMeshAgent agent;
     private ParticleSystem signal;
+
+    private float cool;
 
     public enum Controller
     {
@@ -22,10 +28,23 @@ public class PlayerScript : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         signal = GameObject.Find("SignalSystem").GetComponent<ParticleSystem>();
+        TrailRenderer trail = transform.Find("GoalTrail").GetComponent<TrailRenderer>();
+        trail.startColor = myColor;
+        trail.endColor = myColor;
     }
 
     void Update()
     {
+        if (cool > 0)
+        {
+            cool -= Time.deltaTime;
+            if (cool <= 0)
+            {
+                cool = 0;
+                OnCooldownOver.Invoke();
+            }
+        }
+
         float moveX = Input.GetAxis("Horizontal " + ((int) input + 1));
         float moveZ = Input.GetAxis("Vertical " + ((int) input + 1));
         agent.Move(new Vector3(moveX, 0, moveZ) * movementSpeed * Time.deltaTime);
@@ -36,10 +55,14 @@ public class PlayerScript : MonoBehaviour
 
     public void ShootSignal()
     {
+        if (cool > 0)
+            return;
+
         ParticleSystem.EmitParams par = new ParticleSystem.EmitParams();
         par.position = transform.position;
         par.startColor = myColor;
         signal.Emit(par, 10);
+        cool = cooldown;
     }
 
     private void OnTriggerEnter(Collider other)
