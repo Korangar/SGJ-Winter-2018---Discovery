@@ -7,6 +7,7 @@ public class PlayerScript : MonoBehaviour
     public Controller input;
     public float movementSpeed = 1;
     public Color myColor;
+    public Animator animator;
 
     public float cooldown = 20;
     public UnityEvent OnCooldownOver;
@@ -47,7 +48,9 @@ public class PlayerScript : MonoBehaviour
 
         float moveX = Input.GetAxis("Horizontal " + ((int) input + 1));
         float moveZ = Input.GetAxis("Vertical " + ((int) input + 1));
-        agent.Move(new Vector3(moveX, 0, moveZ) * movementSpeed * Time.deltaTime);
+        Vector3 move = new Vector3(moveX, 0, moveZ);
+        agent.Move(move * movementSpeed * Time.deltaTime);
+        animator.SetBool("Running", move.sqrMagnitude > 0);
 
         if (Input.GetButtonDown("Signal " + ((int)input + 1)))
             ShootSignal();

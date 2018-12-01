@@ -1,91 +1,22 @@
 fileFormatVersion: 2
-guid: 8b7f92b8bdcd6ec4b8b436ba37362106
+guid: c570f08814904db43b10985de747263e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Armature
-    100002: //RootNode
-    100004: Cube.003
-    100006: Cube.004
-    100008: foot IK.l
-    100010: foot IK.l_end
-    100012: foot IK.r
-    100014: foot IK.r_end
-    100016: foot.l
-    100018: foot.l_end
-    100020: foot.r
-    100022: foot.r_end
-    100024: head
-    100026: head IK
-    100028: head IK_end
-    100030: head_end
-    100032: leg1.l
-    100034: leg1.r
-    100036: leg2.l
-    100038: leg2.r
-    100040: neck
-    100042: spine1
-    100044: spine2
-    100046: tail IK
-    100048: tail IK_end
-    100050: tail1
-    100052: tail1.001
-    100054: tail1.001_end
-    100056: wing1.l
-    100058: wing1.r
-    100060: wing2.l
-    100062: wing2.l_end
-    100064: wing2.r
-    100066: wing2.r_end
-    400000: Armature
-    400002: //RootNode
-    400004: Cube.003
-    400006: Cube.004
-    400008: foot IK.l
-    400010: foot IK.l_end
-    400012: foot IK.r
-    400014: foot IK.r_end
-    400016: foot.l
-    400018: foot.l_end
-    400020: foot.r
-    400022: foot.r_end
-    400024: head
-    400026: head IK
-    400028: head IK_end
-    400030: head_end
-    400032: leg1.l
-    400034: leg1.r
-    400036: leg2.l
-    400038: leg2.r
-    400040: neck
-    400042: spine1
-    400044: spine2
-    400046: tail IK
-    400048: tail IK_end
-    400050: tail1
-    400052: tail1.001
-    400054: tail1.001_end
-    400056: wing1.l
-    400058: wing1.r
-    400060: wing2.l
-    400062: wing2.l_end
-    400064: wing2.r
-    400066: wing2.r_end
-    2100000: chicken
-    2300000: Cube.003
-    3300000: Cube.003
-    4300000: Cube.003
-    4300002: Cube.004
-    7400000: Armature|idle
-    7400002: Armature|run
-    9500000: //RootNode
-    13700000: Cube.004
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: chicken
-    second: {fileID: 2100000, guid: 9cc2c047bb43d304cad6ec886613b2fe, type: 2}
+    100000: //RootNode
+    100002: Fernsehr
+    100004: "Kn\xF6pfe"
+    400000: //RootNode
+    400002: Fernsehr
+    400004: "Kn\xF6pfe"
+    2100000: Material
+    2300000: Fernsehr
+    2300002: "Kn\xF6pfe"
+    3300000: Fernsehr
+    3300002: "Kn\xF6pfe"
+    4300000: "Kn\xF6pfe"
+    4300002: Fernsehr
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -137,8 +68,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -165,7 +96,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
