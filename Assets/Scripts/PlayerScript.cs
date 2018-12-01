@@ -98,4 +98,10 @@ public class PlayerScript : MonoBehaviour
         if (other.CompareTag("Finish"))
             other.GetComponent<VictoryController>().MarkFinished(this);
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Finish"))
+            other.GetComponent<VictoryController>().MarkNotFinished(this);
+    }
 }
