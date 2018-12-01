@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 24345ecb2bc1fee4685d1297c35e1707
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm1
+    100002: Arm2
+    100004: Arm3
+    100006: Arm4
+    100008: Arm5
+    100010: Arm7
+    100012: Armature
+    100014: Armature.001
+    100016: Armature.002
+    100018: Armature.003
+    100020: Armature.004
+    100022: Armature.005
+    100024: Armature.006
+    100026: //RootNode
+    100028: Bone
+    100030: Bone 1
+    100032: Bone 2
+    100034: Bone 3
+    100036: Bone 4
+    100038: Bone 5
+    100040: Bone 6
+    100042: Bone.001
+    100044: Bone.001 1
+    100046: Bone.001 2
+    100048: Bone.001 3
+    100050: Bone.001 4
+    100052: Bone.001 5
+    100054: Bone.001 6
+    100056: Bone.002
+    100058: Bone.002 1
+    100060: Bone.002 2
+    100062: Bone.002 3
+    100064: Bone.002 4
+    100066: Bone.002 5
+    100068: Bone.002 6
+    100070: Bone.003
+    100072: Bone.003 1
+    100074: Bone.003 2
+    100076: Bone.003 3
+    100078: Bone.003 4
+    100080: Bone.003 5
+    100082: Bone.003 6
+    100084: Bone.004
+    100086: Bone.004 1
+    100088: Bone.004 2
+    100090: Bone.004 3
+    100092: Bone.004 4
+    100094: Bone.004 5
+    100096: Bone.004 6
+    100098: Bone.005
+    100100: Bone.005 1
+    100102: Bone.005 2
+    100104: Bone.005 3
+    100106: Bone.005 4
+    100108: Bone.005 5
+    100110: Bone.005 6
+    100112: Bone.006
+    100114: Bone.006 1
+    100116: Bone.006 2
+    100118: Bone.006 3
+    100120: Bone.006 4
+    100122: Bone.006 5
+    100124: Bone.006 6
+    100126: Bone.007
+    100128: Bone.007 1
+    100130: Bone.007 2
+    100132: Bone.007 3
+    100134: Bone.007 4
+    100136: Bone.007 5
+    100138: Bone.007 6
+    100140: Bone.008
+    100142: Bone.008 1
+    100144: Bone.008 2
+    100146: Bone.008 3
+    100148: Bone.008 4
+    100150: Bone.008 5
+    100152: Bone.008 6
+    100154: Bone.009
+    100156: Bone.009 1
+    100158: Bone.009 2
+    100160: Bone.009 3
+    100162: Bone.009 4
+    100164: Bone.009 5
+    100166: Bone.009 6
+    100168: Bone.009_end
+    100170: Bone.009_end 1
+    100172: Bone.009_end 2
+    100174: Bone.009_end 3
+    100176: Bone.009_end 4
+    100178: Bone.009_end 5
+    100180: Bone.009_end 6
+    400000: Arm1
+    400002: Arm2
+    400004: Arm3
+    400006: Arm4
+    400008: Arm5
+    400010: Arm7
+    400012: Armature
+    400014: Armature.001
+    400016: Armature.002
+    400018: Armature.003
+    400020: Armature.004
+    400022: Armature.005
+    400024: Armature.006
+    400026: //RootNode
+    400028: Bone
+    400030: Bone 1
+    400032: Bone 2
+    400034: Bone 3
+    400036: Bone 4
+    400038: Bone 5
+    400040: Bone 6
+    400042: Bone.001
+    400044: Bone.001 1
+    400046: Bone.001 2
+    400048: Bone.001 3
+    400050: Bone.001 4
+    400052: Bone.001 5
+    400054: Bone.001 6
+    400056: Bone.002
+    400058: Bone.002 1
+    400060: Bone.002 2
+    400062: Bone.002 3
+    400064: Bone.002 4
+    400066: Bone.002 5
+    400068: Bone.002 6
+    400070: Bone.003
+    400072: Bone.003 1
+    400074: Bone.003 2
+    400076: Bone.003 3
+    400078: Bone.003 4
+    400080: Bone.003 5
+    400082: Bone.003 6
+    400084: Bone.004
+    400086: Bone.004 1
+    400088: Bone.004 2
+    400090: Bone.004 3
+    400092: Bone.004 4
+    400094: Bone.004 5
+    400096: Bone.004 6
+    400098: Bone.005
+    400100: Bone.005 1
+    400102: Bone.005 2
+    400104: Bone.005 3
+    400106: Bone.005 4
+    400108: Bone.005 5
+    400110: Bone.005 6
+    400112: Bone.006
+    400114: Bone.006 1
+    400116: Bone.006 2
+    400118: Bone.006 3
+    400120: Bone.006 4
+    400122: Bone.006 5
+    400124: Bone.006 6
+    400126: Bone.007
+    400128: Bone.007 1
+    400130: Bone.007 2
+    400132: Bone.007 3
+    400134: Bone.007 4
+    400136: Bone.007 5
+    400138: Bone.007 6
+    400140: Bone.008
+    400142: Bone.008 1
+    400144: Bone.008 2
+    400146: Bone.008 3
+    400148: Bone.008 4
+    400150: Bone.008 5
+    400152: Bone.008 6
+    400154: Bone.009
+    400156: Bone.009 1
+    400158: Bone.009 2
+    400160: Bone.009 3
+    400162: Bone.009 4
+    400164: Bone.009 5
+    400166: Bone.009 6
+    400168: Bone.009_end
+    400170: Bone.009_end 1
+    400172: Bone.009_end 2
+    400174: Bone.009_end 3
+    400176: Bone.009_end 4
+    400178: Bone.009_end 5
+    400180: Bone.009_end 6
+    2100000: Material
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Stamm
+    4300002: Arm7
+    4300004: Arm5
+    4300006: Arm4
+    4300008: Arm3
+    4300010: Arm2
+    4300012: Arm1
+    9500000: //RootNode
+    13700000: Arm1
+    13700002: Arm2
+    13700004: Arm3
+    13700006: Arm4
+    13700008: Arm5
+    13700010: Arm7
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
