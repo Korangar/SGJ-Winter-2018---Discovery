@@ -80,7 +80,12 @@ ModelImporter:
     7400002: Armature|run
     9500000: //RootNode
     13700000: Cube.004
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chicken
+    second: {fileID: 2100000, guid: 9cc2c047bb43d304cad6ec886613b2fe, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
