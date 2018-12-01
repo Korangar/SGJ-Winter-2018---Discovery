@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: 0
-  movementSpeed: 10
+  movementSpeed: 5
   myColor: {r: 1, g: 0, b: 0.318408, a: 1}
   animator: {fileID: 8282267447534139935}
   cooldownProgress: {fileID: 4105188385449204727}

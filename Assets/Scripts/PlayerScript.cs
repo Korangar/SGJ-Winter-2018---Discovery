@@ -92,10 +92,4 @@ public class PlayerScript : MonoBehaviour
         cooldownProgress.enabled = true;
         cooldownProgress.material.SetFloat("_Progress", -Mathf.PI);
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Finish"))
-            other.GetComponent<VictoryController>().MarkFinished(this);
-    }
 }
