@@ -17,11 +17,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5731473687778754161}
       propertyPath: m_CullingMask.m_Bits
+<<<<<<< HEAD
       value: 1335
       objectReference: {fileID: 0}
     - target: {fileID: 7563567927222969221}
       propertyPath: input
       value: 1
+=======
+      value: 9527
+>>>>>>> f1bef191fde9ef6a81fa2a0c99d770eecf68170d
       objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -36,7 +40,7 @@ PrefabInstance:
     - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 1335
+      value: 9527
       objectReference: {fileID: 0}
     - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -51,6 +55,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5339837084637080811}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &7563567927222969221 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
@@ -63,6 +68,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ee3aff6f31f2346bc6186cb5394574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> f1bef191fde9ef6a81fa2a0c99d770eecf68170d
 --- !u!20 &5731473687778754161 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
