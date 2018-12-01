@@ -17,15 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2852404479969666752}
       propertyPath: m_CullingMask.m_Bits
-<<<<<<< HEAD
-      value: 2359
-      objectReference: {fileID: 0}
-    - target: {fileID: 65511944013380404}
-      propertyPath: input
-      value: 2
-=======
       value: 10551
->>>>>>> f1bef191fde9ef6a81fa2a0c99d770eecf68170d
       objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -55,21 +47,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2451479619319100506}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
---- !u!114 &65511944013380404 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
-    type: 3}
-  m_PrefabInstance: {fileID: 2451479619319100506}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2852404480495978315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00ee3aff6f31f2346bc6186cb5394574, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-=======
->>>>>>> f1bef191fde9ef6a81fa2a0c99d770eecf68170d
 --- !u!20 &2852404479969666752 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
