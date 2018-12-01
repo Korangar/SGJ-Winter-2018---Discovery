@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
-  m_Name: PostProcessing Profile
+  m_Name: PostProcessing Profile 3
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 114651211190477262}
-  - {fileID: 114534227797280852}
---- !u!114 &114534227797280852
+  - {fileID: 114349091250021498}
+  - {fileID: 114116909207335872}
+--- !u!114 &114116909207335872
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
   opacity:
     overrideState: 0
     value: 1
---- !u!114 &114651211190477262
+--- !u!114 &114349091250021498
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}

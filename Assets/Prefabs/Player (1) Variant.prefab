@@ -15,17 +15,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1) Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 7563567927222969221}
-      propertyPath: input
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5731473687778754161}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5731473687778754161}
       propertyPath: m_CullingMask.m_Bits
-      value: 9527
+      value: 9271
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.g
+      value: 0.35232782
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2394668657211563018}
       propertyPath: m_Layer
@@ -39,6 +51,58 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2870534452876261640}
+      propertyPath: volumeLayer.m_Bits
+      value: 65536
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394668657211563018}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394668657211563018}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394668657211563018}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394668657211563018}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_CullingMask.m_Bits
+      value: 9271
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_CullingMask.m_Bits
+      value: 9527
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_CullingMask.m_Bits
+      value: 9527
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_CullingMask.m_Bits
+      value: 9527
+      objectReference: {fileID: 0}
     - target: {fileID: 5731473687778754161}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0.5
@@ -51,15 +115,110 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5731473688061927418}
+      propertyPath: m_Name
+      value: Player (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473688061927418}
+      propertyPath: m_Name
+      value: Player (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473688061927418}
+      propertyPath: m_Name
+      value: Player (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473688061927418}
+      propertyPath: m_Name
+      value: Player (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.g
+      value: 0.35232782
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.g
+      value: 0.35232782
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.g
+      value: 0.051671028
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690157089605818326}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690157089605818326}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690157089605818326}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690157089605818326}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460003199277039520}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460003199277039520}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460003199277039520}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460003199277039520}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_Name
       value: Player (1) Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
-        type: 3}
-      propertyPath: input
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -69,7 +228,27 @@ PrefabInstance:
     - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 9527
+      value: 9271
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.g
+      value: 0.35232782
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7719587565658665185, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -85,6 +264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7911916800319002083, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: volumeLayer.m_Bits
+      value: 65536
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce1737ae9f470a44865d9b0b0c30ada, type: 3}
@@ -112,6 +296,18 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 5339837084637080811}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2870534452876261640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7911916800319002083, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+    type: 3}
+  m_PrefabInstance: {fileID: 5339837084637080811}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2394668657211563018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7719587565658665185, guid: 3ce1737ae9f470a44865d9b0b0c30ada,

@@ -13,14 +13,14 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - PostProcessingVR
   - HUDP0
   - HUDP1
   - HUDP2
   - HUDP3
   - NonVR
   - GoalHUD
-  - PostProcessingVR
+  - 
   - 
   - 
   - 

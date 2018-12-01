@@ -11,10 +11,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (3) Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 3623318030718112427}
-      propertyPath: input
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1528378931497783135}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0.5
@@ -25,7 +21,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1528378931497783135}
       propertyPath: m_CullingMask.m_Bits
-      value: 12599
+      value: 12343
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: input
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: myColor.g
+      value: 0.98470926
       objectReference: {fileID: 0}
     - target: {fileID: 8900306990661266724}
       propertyPath: m_Layer
@@ -51,19 +55,86 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 12599
       objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_CullingMask.m_Bits
+      value: 12599
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
+      propertyPath: m_CullingMask.m_Bits
+      value: 12599
+      objectReference: {fileID: 0}
     - target: {fileID: 1528378931831172820}
       propertyPath: m_Name
       value: Player (3) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931831172820}
+      propertyPath: m_Name
+      value: Player (3) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931831172820}
+      propertyPath: m_Name
+      value: Player (3) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447598353188277902}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447598353188277902}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460806690934957816}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460806690934957816}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: input
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: myColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: myColor.g
+      value: 0.98470926
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: input
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900306990661266724}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900306990661266724}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_Name
       value: Player (3) Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
-        type: 3}
-      propertyPath: input
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -78,7 +149,17 @@ PrefabInstance:
     - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 12599
+      value: 12343
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: input
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.g
+      value: 0.98470926
       objectReference: {fileID: 0}
     - target: {fileID: 7719587565658665185, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
