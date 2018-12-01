@@ -7,6 +7,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2852404480495978315}
+      propertyPath: m_Name
+      value: Player (2) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852404479969666752}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852404479969666752}
+      propertyPath: m_CullingMask.m_Bits
+      value: 10551
+      objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_Name
@@ -20,7 +32,19 @@ PrefabInstance:
     - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 2359
+      value: 10551
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce1737ae9f470a44865d9b0b0c30ada, type: 3}
+--- !u!1 &2852404480495978315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+    type: 3}
+  m_PrefabInstance: {fileID: 2451479619319100506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &2852404479969666752 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+    type: 3}
+  m_PrefabInstance: {fileID: 2451479619319100506}
+  m_PrefabAsset: {fileID: 0}
