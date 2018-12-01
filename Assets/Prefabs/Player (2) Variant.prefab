@@ -229,6 +229,11 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 10295
       objectReference: {fileID: 0}
+    - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5270368542515299515}
       propertyPath: m_Layer
       value: 11

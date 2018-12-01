@@ -331,6 +331,16 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 12343
       objectReference: {fileID: 0}
+    - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3509510012449560434, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: texOffset.x

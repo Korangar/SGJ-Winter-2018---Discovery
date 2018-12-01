@@ -172,7 +172,7 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.5
     width: 0.5
     height: 0.5
   near clip plane: 0.3
@@ -4918,6 +4918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0930a1bd08f2c8d468ca12d1b59a936d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texOffset: {x: 0, y: 0}
 --- !u!1 &8430931253977640109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5641,10 +5642,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gamejam character Lowpoly chicken
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 2aafc3ae0f19dfa45ab9aa8b80317e89, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b2a1e84dc99edf041ad6c9d9d3cefb5e, type: 2}
     - target: {fileID: 400022, guid: 2aafc3ae0f19dfa45ab9aa8b80317e89, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5689,6 +5686,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 2aafc3ae0f19dfa45ab9aa8b80317e89, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b2a1e84dc99edf041ad6c9d9d3cefb5e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2aafc3ae0f19dfa45ab9aa8b80317e89, type: 3}
 --- !u!4 &8282267447543420393 stripped
