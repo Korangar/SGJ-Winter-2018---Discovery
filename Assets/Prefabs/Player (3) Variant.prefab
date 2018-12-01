@@ -40,6 +40,10 @@ PrefabInstance:
       value: 12343
       objectReference: {fileID: 0}
     - target: {fileID: 1528378931497783135}
+      propertyPath: m_CullingMask.m_Bits
+      value: 12343
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135}
       propertyPath: m_Depth
       value: 4
       objectReference: {fileID: 0}
@@ -114,6 +118,10 @@ PrefabInstance:
     - target: {fileID: 1528378931497783135}
       propertyPath: m_CullingMask.m_Bits
       value: 12599
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931831172820}
+      propertyPath: m_Name
+      value: Player (3) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1528378931831172820}
       propertyPath: m_Name
@@ -179,7 +187,7 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 3460806690934957816}
+    - target: {fileID: 3447598353188277902}
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
@@ -199,6 +207,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 3460806690934957816}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460806690934957816}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: input
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: myColor.g
+      value: 0.98470926
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623318030718112427}
+      propertyPath: cooldownProgress
+      value: 
+      objectReference: {fileID: 4808848479103306710}
     - target: {fileID: 3623318030718112427}
       propertyPath: input
       value: 3
@@ -259,6 +287,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8900306990661266724}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_Name
@@ -293,11 +325,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
-        type: 3}
-      propertyPath: m_Depth
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
