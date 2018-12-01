@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfee2462141dae94c90b6c7071f828b5
+guid: 601624c2e0246de48a2f9e3e14aaa6ce
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,8 +8,7 @@ ModelImporter:
     2100000: Material
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Stein4
-    4300002: Stein3
+    4300000: Messer
   externalObjects: {}
   materials:
     importMaterials: 1
