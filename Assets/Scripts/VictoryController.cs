@@ -26,6 +26,11 @@ public class VictoryController : MonoBehaviour
         }
     }
 
+    public void MarkNotFinished(PlayerScript player)
+    {
+        finishedPlayers.Remove(player);
+    }
+
     public void MarkFinished(PlayerScript player)
     {
         finishedPlayers.Add(player);
