@@ -83,6 +83,7 @@ MonoBehaviour:
   movementSpeed: 10
   myColor: {r: 1, g: 0, b: 0.318408, a: 1}
   animator: {fileID: 4238282467448290598}
+  cooldownProgress: {fileID: 4105188385449204727}
   cooldown: 20
   OnCooldownOver:
     m_PersistentCalls:
@@ -5665,6 +5666,12 @@ PrefabInstance:
 --- !u!4 &2378918141447918716 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5426572633238401234, guid: 9ebe0420718f0e94e914b03918920873,
+    type: 3}
+  m_PrefabInstance: {fileID: 7659658132267443374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4105188385449204727 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5959420552324710233, guid: 9ebe0420718f0e94e914b03918920873,
     type: 3}
   m_PrefabInstance: {fileID: 7659658132267443374}
   m_PrefabAsset: {fileID: 0}

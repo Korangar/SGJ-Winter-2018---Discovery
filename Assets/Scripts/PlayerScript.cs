@@ -8,6 +8,7 @@ public class PlayerScript : MonoBehaviour
     public float movementSpeed = 1;
     public Color myColor;
     public Animator animator;
+    public SpriteRenderer cooldownProgress;
 
     public float cooldown = 20;
     public UnityEvent OnCooldownOver;
@@ -32,6 +33,9 @@ public class PlayerScript : MonoBehaviour
         TrailRenderer trail = transform.Find("GoalTrail").GetComponent<TrailRenderer>();
         trail.startColor = myColor;
         trail.endColor = myColor;
+
+        cooldownProgress.color = myColor;
+        cooldownProgress.material.SetFloat("_Progress", -Mathf.PI);
     }
 
     void Update()
@@ -39,10 +43,12 @@ public class PlayerScript : MonoBehaviour
         if (cool > 0)
         {
             cool -= Time.deltaTime;
+            cooldownProgress.material.SetFloat("_Progress", Mathf.PI * 2 * (cool / cooldown - 0.5F));
             if (cool <= 0)
             {
                 cool = 0;
                 OnCooldownOver.Invoke();
+                cooldownProgress.enabled = false;
             }
         }
 
@@ -69,6 +75,8 @@ public class PlayerScript : MonoBehaviour
         par.startColor = myColor;
         signal.Emit(par, 10);
         cool = cooldown;
+        cooldownProgress.enabled = true;
+        cooldownProgress.material.SetFloat("_Progress", -Mathf.PI);
     }
 
     private void OnTriggerEnter(Collider other)
