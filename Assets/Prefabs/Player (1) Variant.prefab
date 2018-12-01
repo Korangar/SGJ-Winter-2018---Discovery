@@ -25,15 +25,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7563567927222969221}
       propertyPath: myColor.r
-      value: 0
+      value: 0.5507298
       objectReference: {fileID: 0}
     - target: {fileID: 7563567927222969221}
       propertyPath: myColor.g
-      value: 0.35232782
+      value: 0.70263666
       objectReference: {fileID: 0}
     - target: {fileID: 7563567927222969221}
       propertyPath: myColor.b
-      value: 1
+      value: 0.9811321
       objectReference: {fileID: 0}
     - target: {fileID: 7563567927222969221}
       propertyPath: cooldownProgress
@@ -60,9 +60,13 @@ PrefabInstance:
       propertyPath: volumeLayer.m_Bits
       value: 65536
       objectReference: {fileID: 0}
-    - target: {fileID: 2394668657211563018}
-      propertyPath: m_Layer
-      value: 10
+    - target: {fileID: 8840180459787500441}
+      propertyPath: texOffset.x
+      value: -0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840180459787500441}
+      propertyPath: texOffset.y
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2394668657211563018}
       propertyPath: m_Layer
@@ -87,6 +91,34 @@ PrefabInstance:
     - target: {fileID: 2394668657211563018}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394668657211563018}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394668657211563018}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394668657211563018}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394668657211563018}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_CullingMask.m_Bits
+      value: 9271
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_CullingMask.m_Bits
+      value: 9271
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161}
+      propertyPath: m_CullingMask.m_Bits
+      value: 9271
       objectReference: {fileID: 0}
     - target: {fileID: 5731473687778754161}
       propertyPath: m_CullingMask.m_Bits
@@ -184,6 +216,78 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5731473688061927418}
+      propertyPath: m_Name
+      value: Player (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473688061927418}
+      propertyPath: m_Name
+      value: Player (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473688061927418}
+      propertyPath: m_Name
+      value: Player (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.g
+      value: 0.35232782
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: cooldownProgress
+      value: 
+      objectReference: {fileID: 171199806637350536}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.g
+      value: 0.35232782
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: cooldownProgress
+      value: 
+      objectReference: {fileID: 171199806637350536}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: input
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.g
+      value: 0.35232782
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: myColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563567927222969221}
+      propertyPath: cooldownProgress
+      value: 
+      objectReference: {fileID: 171199806637350536}
     - target: {fileID: 7563567927222969221}
       propertyPath: input
       value: 1
@@ -320,7 +424,15 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 8460003199277039520}
+    - target: {fileID: 7690157089605818326}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690157089605818326}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690157089605818326}
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
@@ -347,6 +459,34 @@ PrefabInstance:
     - target: {fileID: 8460003199277039520}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460003199277039520}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460003199277039520}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460003199277039520}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460003199277039520}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840180459787500441}
+      propertyPath: texOffset.x
+      value: -0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840180459787500441}
+      propertyPath: texOffset.y
+      value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840180459787500441}
+      propertyPath: texOffset.x
+      value: -0.375
       objectReference: {fileID: 0}
     - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -361,17 +501,17 @@ PrefabInstance:
     - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: myColor.r
-      value: 0
+      value: 0.5507298
       objectReference: {fileID: 0}
     - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: myColor.g
-      value: 0.35232782
+      value: 0.70263666
       objectReference: {fileID: 0}
     - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: myColor.b
-      value: 1
+      value: 0.9811321
       objectReference: {fileID: 0}
     - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -397,6 +537,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 9271
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509510012449560434, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: texOffset.x
+      value: -0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509510012449560434, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: texOffset.y
+      value: -0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce1737ae9f470a44865d9b0b0c30ada, type: 3}
@@ -424,6 +574,18 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 5339837084637080811}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8840180459787500441 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3509510012449560434, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+    type: 3}
+  m_PrefabInstance: {fileID: 5339837084637080811}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0930a1bd08f2c8d468ca12d1b59a936d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2394668657211563018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7719587565658665185, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
