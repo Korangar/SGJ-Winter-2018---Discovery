@@ -44,13 +44,29 @@ PrefabInstance:
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2852404479969666752}
-      propertyPath: m_NormalizedViewPortRect.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2852404479969666752}
       propertyPath: m_CullingMask.m_Bits
       value: 10295
       objectReference: {fileID: 0}
+    - target: {fileID: 65511944013380404}
+      propertyPath: input
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 65511944013380404}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 65511944013380404}
+      propertyPath: myColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65511944013380404}
+      propertyPath: myColor.b
+      value: 0.23965812
+      objectReference: {fileID: 0}
+    - target: {fileID: 65511944013380404}
+      propertyPath: cooldownProgress
+      value: 
+      objectReference: {fileID: 1319612687977764993}
     - target: {fileID: 65511944013380404}
       propertyPath: input
       value: 2
@@ -99,6 +115,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 191230430617784167}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123577133984687889}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2123577133984687889}
       propertyPath: m_Layer
       value: 11
@@ -110,6 +134,14 @@ PrefabInstance:
     - target: {fileID: 2123577133984687889}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852404479969666752}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852404479969666752}
+      propertyPath: m_CullingMask.m_Bits
+      value: 10295
       objectReference: {fileID: 0}
     - target: {fileID: 2852404479969666752}
       propertyPath: m_NormalizedViewPortRect.y
@@ -158,6 +190,14 @@ PrefabInstance:
     - target: {fileID: 2852404480495978315}
       propertyPath: m_Name
       value: Player (2) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852404480495978315}
+      propertyPath: m_Name
+      value: Player (2) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270368542515299515}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5270368542515299515}
       propertyPath: m_Layer
@@ -215,11 +255,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
-        type: 3}
-      propertyPath: m_NormalizedViewPortRect.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}

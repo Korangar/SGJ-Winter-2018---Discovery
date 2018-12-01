@@ -112,6 +112,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 3b3c8d3bbc3249a44aec83375076c2cf, type: 2}
+--- !u!4 &164626175 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2852404479969666755, guid: 212235235c1864242bd8f25165a2d46b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5380190330344360922}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &334281664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,6 +129,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528378931831172820, guid: 64cff50f0efbcfe47b1b0f533700c9dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1528378931831172818, guid: 64cff50f0efbcfe47b1b0f533700c9dc,
         type: 3}
@@ -199,6 +210,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1528378931497783135, guid: 64cff50f0efbcfe47b1b0f533700c9dc,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633308316159760989, guid: 64cff50f0efbcfe47b1b0f533700c9dc,
+        type: 3}
+      propertyPath: volumeTrigger
+      value: 
+      objectReference: {fileID: 164626175}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64cff50f0efbcfe47b1b0f533700c9dc, type: 3}
 --- !u!1 &1061627610
@@ -4899,6 +4920,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &1096789257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400997914942165657, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+    type: 3}
+  m_PrefabInstance: {fileID: 400997915512798731}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1242315557 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3623318030718112427, guid: 64cff50f0efbcfe47b1b0f533700c9dc,
@@ -4958,6 +4985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 400997914545877777, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400997914545877783, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
@@ -5019,6 +5051,11 @@ PrefabInstance:
       propertyPath: m_AutoBraking
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400997914545877776, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400997914942165657, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -5079,6 +5116,26 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 400997914942165658, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6811920806325897112, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: volumeTrigger
+      value: 
+      objectReference: {fileID: 1096789257}
+    - target: {fileID: 6811920806325897112, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7041633071362563294, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce1737ae9f470a44865d9b0b0c30ada, type: 3}
 --- !u!1001 &642069173712356106
@@ -5092,6 +5149,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VRPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116522097800750247, guid: aa2bc6e350ee61243a8196408ea89b40,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4575954131371821599, guid: aa2bc6e350ee61243a8196408ea89b40,
         type: 3}
@@ -5148,10 +5210,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2582212691165691526, guid: aa2bc6e350ee61243a8196408ea89b40,
+    - target: {fileID: 4166744623982528837, guid: aa2bc6e350ee61243a8196408ea89b40,
         type: 3}
-      propertyPath: volumeLayer.m_Bits
-      value: 256
+      propertyPath: m_Depth
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926554157, guid: aa2bc6e350ee61243a8196408ea89b40, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926554157, guid: aa2bc6e350ee61243a8196408ea89b40, type: 3}
+      propertyPath: m_Depth
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2bc6e350ee61243a8196408ea89b40, type: 3}
@@ -5166,6 +5236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473688061927418, guid: 106da5c23f369284088123d3f1c20ec2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5731473688061927420, guid: 106da5c23f369284088123d3f1c20ec2,
         type: 3}
@@ -5256,6 +5331,36 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161, guid: 106da5c23f369284088123d3f1c20ec2,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731473687778754161, guid: 106da5c23f369284088123d3f1c20ec2,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482287259530423155, guid: 106da5c23f369284088123d3f1c20ec2,
+        type: 3}
+      propertyPath: volumeTrigger
+      value: 
+      objectReference: {fileID: 164626175}
+    - target: {fileID: 3144091368577921077, guid: 106da5c23f369284088123d3f1c20ec2,
+        type: 3}
+      propertyPath: weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144091368577921077, guid: 106da5c23f369284088123d3f1c20ec2,
+        type: 3}
+      propertyPath: priority
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144091368577921077, guid: 106da5c23f369284088123d3f1c20ec2,
+        type: 3}
+      propertyPath: isGlobal
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106da5c23f369284088123d3f1c20ec2, type: 3}
 --- !u!1001 &5380190330344360922
@@ -5269,6 +5374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852404480495978315, guid: 212235235c1864242bd8f25165a2d46b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1769662211180887217, guid: 64cff50f0efbcfe47b1b0f533700c9dc,
         type: 3}
@@ -5373,6 +5483,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975016929244361666, guid: 212235235c1864242bd8f25165a2d46b,
+        type: 3}
+      propertyPath: stopNaNPropagation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4881198591200897156, guid: 212235235c1864242bd8f25165a2d46b,
+        type: 3}
+      propertyPath: weight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 212235235c1864242bd8f25165a2d46b, type: 3}
