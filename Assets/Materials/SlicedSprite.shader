@@ -7,6 +7,7 @@
 		_Color ("Color", Color) = (1.0, 1.0, 1.0, 1.0)
 		[PerRenderData]
         _MainTex ("Texture", 2D) = "white" {}
+		[PerRenderData]
 		_Progress ("Progress", Float) = 0
     }
     SubShader
