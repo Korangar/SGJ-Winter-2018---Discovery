@@ -43,7 +43,7 @@ public class ReticleScript : MonoBehaviour
 
     void NormalizedVector()
     {
-            vec = otherPlayer.transform.position - transform.parent.position;
-         normVec = (vec).normalized;
+        vec = otherPlayer.transform.position - transform.parent.position;
+        normVec = (vec).normalized;
     }
 }
