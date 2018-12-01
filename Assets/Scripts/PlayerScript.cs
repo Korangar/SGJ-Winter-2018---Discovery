@@ -7,11 +7,15 @@ public class PlayerScript : MonoBehaviour
     public Controller input;
     public float movementSpeed = 1;
     public Color myColor;
+    private Transform cam;
     public Animator animator;
     public SpriteRenderer cooldownProgress;
 
     public float cooldown = 20;
     public UnityEvent OnCooldownOver;
+
+    public float cameraTilt = 10;
+    public float tiltSmooth = 3;
 
     private NavMeshAgent agent;
     private ParticleSystem signal;
@@ -29,6 +33,7 @@ public class PlayerScript : MonoBehaviour
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        cam = transform.Find("Main Camera");
         signal = GameObject.Find("SignalSystem").GetComponent<ParticleSystem>();
         TrailRenderer trail = transform.Find("GoalTrail").GetComponent<TrailRenderer>();
         trail.startColor = myColor;
@@ -59,10 +64,19 @@ public class PlayerScript : MonoBehaviour
 
         bool moving = move.sqrMagnitude > 0;
         animator.SetBool("Running", moving);
-        if (moving)animator.transform.rotation = Quaternion.LookRotation(move);
+        if (moving)
+            animator.transform.rotation = Quaternion.LookRotation(move);
 
         if (Input.GetButtonDown("Signal " + ((int)input + 1)))
             ShootSignal();
+    }
+
+    private void FixedUpdate()
+    {
+
+        float moveX = Input.GetAxis("Horizontal " + ((int)input + 1));
+        float moveZ = Input.GetAxis("Vertical " + ((int)input + 1));
+        cam.rotation = Quaternion.Slerp(cam.rotation, Quaternion.Euler(moveZ * -cameraTilt, 0, moveX * cameraTilt) * Quaternion.Euler(90 * Vector3.right), tiltSmooth);
     }
 
     public void ShootSignal()
