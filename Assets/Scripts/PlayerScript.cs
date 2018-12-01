@@ -5,6 +5,7 @@ public class PlayerScript : MonoBehaviour
 {
     public Controller input;
     public float movementSpeed = 1;
+    public Color myColor;
 
     private NavMeshAgent agent;
 
