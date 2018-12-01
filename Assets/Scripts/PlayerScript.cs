@@ -82,8 +82,6 @@ public class PlayerScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Finish"))
-        {
-            FindObjectOfType<GoalCameraAnimation>().StartAnimation();
-        }
+            other.GetComponent<VictoryController>().MarkFinished(this);
     }
 }
