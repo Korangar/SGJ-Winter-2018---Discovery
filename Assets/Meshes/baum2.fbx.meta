@@ -94,6 +94,7 @@ ModelImporter:
     100176: Bone.009_end 4
     100178: Bone.009_end 5
     100180: Bone.009_end 6
+    100182: Arm6
     400000: Arm1
     400002: Arm2
     400004: Arm3
@@ -185,9 +186,24 @@ ModelImporter:
     400176: Bone.009_end 4
     400178: Bone.009_end 5
     400180: Bone.009_end 6
+    400182: Arm6
     2100000: Material
     2300000: //RootNode
+    2300002: Arm1
+    2300004: Arm2
+    2300006: Arm3
+    2300008: Arm4
+    2300010: Arm5
+    2300012: Arm6
+    2300014: Arm7
     3300000: //RootNode
+    3300002: Arm1
+    3300004: Arm2
+    3300006: Arm3
+    3300008: Arm4
+    3300010: Arm5
+    3300012: Arm6
+    3300014: Arm7
     4300000: Stamm
     4300002: Arm7
     4300004: Arm5
@@ -195,6 +211,7 @@ ModelImporter:
     4300008: Arm3
     4300010: Arm2
     4300012: Arm1
+    4300014: Arm6
     9500000: //RootNode
     13700000: Arm1
     13700002: Arm2
