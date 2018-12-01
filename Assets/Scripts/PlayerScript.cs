@@ -5,7 +5,11 @@ public class PlayerScript : MonoBehaviour
 {
     public Controller input;
     public float movementSpeed = 1;
+<<<<<<< HEAD
     //public Color myColor = Color.white;
+=======
+    public Color myColor;
+>>>>>>> 4f86e5ad1a77ec4223236f133bfbb6014a46b9ba
 
     private NavMeshAgent agent;
     private ParticleSystem signal;
