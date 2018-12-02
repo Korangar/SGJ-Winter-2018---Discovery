@@ -315,6 +315,26 @@ PrefabInstance:
       propertyPath: input
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: input
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.g
+      value: 0.023584902
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: cooldownProgress
+      value: 
+      objectReference: {fileID: 4808848479103306710}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.b
+      value: 0.6001318
+      objectReference: {fileID: 0}
     - target: {fileID: 8900306990661266724}
       propertyPath: m_Layer
       value: 12

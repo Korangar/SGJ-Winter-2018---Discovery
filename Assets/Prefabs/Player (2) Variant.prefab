@@ -56,18 +56,23 @@ PrefabInstance:
     - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: myColor.g
-      value: 0.9685757
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: myColor.b
-      value: 0
+      value: 0.21226418
       objectReference: {fileID: 0}
     - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
         type: 3}
       propertyPath: cooldownProgress
       value: 
       objectReference: {fileID: 1319612687977764993}
+    - target: {fileID: 2516906900833537902, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: myColor.r
+      value: 0.95490277
+      objectReference: {fileID: 0}
     - target: {fileID: 65511944013380404}
       propertyPath: input
       value: 2
@@ -234,6 +239,11 @@ PrefabInstance:
       propertyPath: m_NormalizedViewPortRect.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3509510012449560434, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
+        type: 3}
+      propertyPath: texOffset.x
+      value: -0.125
+      objectReference: {fileID: 0}
     - target: {fileID: 5270368542515299515}
       propertyPath: m_Layer
       value: 11
@@ -389,11 +399,6 @@ PrefabInstance:
     - target: {fileID: 8078424739421332041}
       propertyPath: m_Color.b
       value: 0.87483263
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509510012449560434, guid: 3ce1737ae9f470a44865d9b0b0c30ada,
-        type: 3}
-      propertyPath: texOffset.x
-      value: -0.125
       objectReference: {fileID: 0}
     - target: {fileID: 1346909967548179240}
       propertyPath: texOffset.x
