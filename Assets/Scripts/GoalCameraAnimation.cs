@@ -7,6 +7,9 @@ public class GoalCameraAnimation : MonoBehaviour
     public float startY, endY;
     public float animationDuration;
     Camera cam;
+    public TextMesh text;
+    public string wintext, looseText;
+    public bool win;
 
     void Awake()
     {
@@ -31,6 +34,7 @@ public class GoalCameraAnimation : MonoBehaviour
             transform.position = new Vector3(pos.x, startY + t * (endY - startY), pos.z);
             yield return new WaitForEndOfFrame();
         }
+        text.text = win ? wintext : looseText;
         transform.position = new Vector3(pos.x, endY, pos.z);
     }
 }
