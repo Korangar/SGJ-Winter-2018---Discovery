@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2275805415617827348}
   - component: {fileID: 2275805415618826452}
   - component: {fileID: 2275805415611383252}
+  - component: {fileID: 6095938388205196571}
   m_Layer: 0
   m_Name: Candycane
   m_TagString: Untagged
@@ -97,3 +98,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!208 &6095938388205196571
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2275805415620759060}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.013, y: 0.003, z: 0.041}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.010000001, y: 0, z: 0.031000001}
+  m_TimeToStationary: 0.5
