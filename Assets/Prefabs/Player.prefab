@@ -81,7 +81,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: 0
   movementSpeed: 5
-  myColor: {r: 1, g: 0, b: 0.318408, a: 1}
+  myColor: {r: 1, g: 0, b: 0.020209312, a: 1}
   animator: {fileID: 8282267447534139935}
   cooldownProgress: {fileID: 4105188385449204727}
   cooldown: 20
@@ -5642,6 +5642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gamejam character Lowpoly chicken
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 2aafc3ae0f19dfa45ab9aa8b80317e89, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b2a1e84dc99edf041ad6c9d9d3cefb5e, type: 2}
     - target: {fileID: 400022, guid: 2aafc3ae0f19dfa45ab9aa8b80317e89, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5686,10 +5690,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 2aafc3ae0f19dfa45ab9aa8b80317e89, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b2a1e84dc99edf041ad6c9d9d3cefb5e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2aafc3ae0f19dfa45ab9aa8b80317e89, type: 3}
 --- !u!4 &8282267447543420393 stripped
