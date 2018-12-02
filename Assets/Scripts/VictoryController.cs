@@ -37,7 +37,7 @@ public class VictoryController : MonoBehaviour
         finishedPlayers.Add(player);
         Debug.Log(player.name + " reached the goal!");
 
-        if (finishedPlayers.Count >= playerCountForVictory)
+        if (!finished && finishedPlayers.Count >= playerCountForVictory)
         {
             finished = true;
             finishAnim.win = true;
