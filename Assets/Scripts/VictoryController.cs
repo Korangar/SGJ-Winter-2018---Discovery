@@ -22,6 +22,7 @@ public class VictoryController : MonoBehaviour
         {
             finished = true;
             Debug.Log("Timeout!");
+            finishAnim.win = false;
             finishAnim.StartAnimation();
         }
     }
@@ -39,6 +40,7 @@ public class VictoryController : MonoBehaviour
         if (finishedPlayers.Count >= playerCountForVictory)
         {
             finished = true;
+            finishAnim.win = true;
             finishAnim.StartAnimation();
         }
     }
