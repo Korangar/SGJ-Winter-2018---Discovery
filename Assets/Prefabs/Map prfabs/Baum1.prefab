@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1372245139900106673}
+  - component: {fileID: 1157769554222611107}
   m_Layer: 0
   m_Name: Baum1
   m_TagString: Untagged
@@ -35,6 +36,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1157769554222611107
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372245139900537745}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 10.5, y: 1, z: 10.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.2, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1372245139900537747
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,6 +371,7 @@ GameObject:
   - component: {fileID: 1372245139900106683}
   - component: {fileID: 1372245139903530905}
   - component: {fileID: 1372245139902530905}
+  - component: {fileID: 7060791499424154315}
   m_Layer: 0
   m_Name: Stamm.001
   m_TagString: Untagged
@@ -420,3 +438,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!208 &7060791499424154315
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372245139900537755}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.015000001, y: 0.015000001, z: 0.16700001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0.157}
+  m_TimeToStationary: 0.5

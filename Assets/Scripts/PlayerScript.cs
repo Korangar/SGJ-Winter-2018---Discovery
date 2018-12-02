@@ -87,7 +87,7 @@ public class PlayerScript : MonoBehaviour
         ParticleSystem.EmitParams par = new ParticleSystem.EmitParams();
         par.position = transform.position;
         par.startColor = myColor;
-        signal.Emit(par, 10);
+        signal.Emit(par, 1);
         cool = cooldown;
         cooldownProgress.enabled = true;
         cooldownProgress.material.SetFloat("_Progress", -Mathf.PI);
