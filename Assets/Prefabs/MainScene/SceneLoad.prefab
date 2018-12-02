@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2892086169237098471}
   - component: {fileID: 2892086169237098465}
   - component: {fileID: 8453422765681292128}
+  - component: {fileID: 1114814944613740407}
   m_Layer: 0
   m_Name: SceneLoad
   m_TagString: Untagged
@@ -74,4 +75,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: TitleScreen
-  loadMode: 0
+  loadMode: 1
+--- !u!114 &1114814944613740407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2892086169237098470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df55c0f2d7c08b54783b2f1dc8ddcf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
