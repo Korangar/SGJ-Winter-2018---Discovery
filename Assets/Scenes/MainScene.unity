@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 992933699}
-  m_IndirectSpecularColor: {r: 0.5164908, g: 0.56792045, b: 0.5929832, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -88,8 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000000, guid: 702474c120a47a94180c83abdc165570,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -101,7 +100,7 @@ NavMeshSettings:
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 30
-    agentClimb: 0.4
+    agentClimb: 0.6
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -208,12 +207,12 @@ PrefabInstance:
     - target: {fileID: 4988930979366663330, guid: dbe2707fd1869774491b2802896011af,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 165
+      value: 93.7
       objectReference: {fileID: 0}
     - target: {fileID: 4988930979366663330, guid: dbe2707fd1869774491b2802896011af,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4988930979366663330, guid: dbe2707fd1869774491b2802896011af,
         type: 3}
@@ -253,6 +252,11 @@ PrefabInstance:
     - target: {fileID: 4988930979366663330, guid: dbe2707fd1869774491b2802896011af,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988930979366663331, guid: dbe2707fd1869774491b2802896011af,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.minMaxState
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
