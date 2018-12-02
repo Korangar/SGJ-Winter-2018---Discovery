@@ -34,7 +34,9 @@ public class PlayerScript : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         cam = transform.Find("Main Camera");
-        signal = GameObject.Find("SignalSystem").GetComponent<ParticleSystem>();
+        GameObject sig = GameObject.Find("SignalSystem");
+        if (sig != null)
+            signal = sig.GetComponent<ParticleSystem>();
         TrailRenderer trail = transform.Find("GoalTrail").GetComponent<TrailRenderer>();
         trail.startColor = myColor;
         trail.endColor = myColor;
@@ -81,7 +83,7 @@ public class PlayerScript : MonoBehaviour
 
     public void ShootSignal()
     {
-        if (cool > 0)
+        if (cool > 0  || signal == null)
             return;
 
         ParticleSystem.EmitParams par = new ParticleSystem.EmitParams();
