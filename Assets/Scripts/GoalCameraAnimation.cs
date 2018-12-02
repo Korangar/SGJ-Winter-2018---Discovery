@@ -25,6 +25,7 @@ public class GoalCameraAnimation : MonoBehaviour
     IEnumerator Animate()
     {
         cam.enabled = true;
+        text.gameObject.SetActive(false);
         Vector3 pos = transform.position;
         transform.position = new Vector3(pos.x, startY, pos.z);
         for (float f = 0; f < animationDuration; f += Time.deltaTime)
@@ -34,6 +35,7 @@ public class GoalCameraAnimation : MonoBehaviour
             transform.position = new Vector3(pos.x, startY + t * (endY - startY), pos.z);
             yield return new WaitForEndOfFrame();
         }
+        text.gameObject.SetActive(true);
         text.text = win ? wintext : looseText;
         transform.position = new Vector3(pos.x, endY, pos.z);
     }

@@ -100,7 +100,7 @@ MonoBehaviour:
   animationDuration: 10
   text: {fileID: 6158387846841018898}
   wintext: You Win
-  looseText: Timeout
+  looseText: Time Over
   win: 0
 --- !u!1 &2016708092
 GameObject:
@@ -240,7 +240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6990426261366084614
 Transform:
   m_ObjectHideFlags: 0
