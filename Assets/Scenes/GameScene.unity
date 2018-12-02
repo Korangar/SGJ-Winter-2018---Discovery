@@ -3967,7 +3967,7 @@ ParticleSystem:
     enabled: 1
     subEmitters:
     - serializedVersion: 3
-      emitter: {fileID: 800674037626913004}
+      emitter: {fileID: 0}
       type: 2
       properties: 1
       emitProbability: 1
@@ -4921,17 +4921,16 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2868201662905567105}
   - {fileID: 1090064361}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1090064358
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 2272962461202824874, guid: 3303c02f276145942b20783e0b8b0653,
     type: 3}
-  m_PrefabInstance: {fileID: 310968939}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -4950,7 +4949,7 @@ ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 800674037626913004, guid: 3303c02f276145942b20783e0b8b0653,
     type: 3}
-  m_PrefabInstance: {fileID: 310968939}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090064358}
   serializedVersion: 6
@@ -9614,7 +9613,7 @@ ParticleSystemRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 4725951326906852301, guid: 3303c02f276145942b20783e0b8b0653,
     type: 3}
-  m_PrefabInstance: {fileID: 310968939}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090064358}
   m_Enabled: 1
@@ -9676,7 +9675,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 2868201662905567105, guid: 3303c02f276145942b20783e0b8b0653,
     type: 3}
-  m_PrefabInstance: {fileID: 310968939}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090064358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -9684,7 +9683,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1061627613}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1169528021 stripped
 GameObject:
@@ -10047,7 +10046,7 @@ PrefabInstance:
     - target: {fileID: 5731473688061927420, guid: 106da5c23f369284088123d3f1c20ec2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.4
+      value: -21.2
       objectReference: {fileID: 0}
     - target: {fileID: 5731473688061927420, guid: 106da5c23f369284088123d3f1c20ec2,
         type: 3}
@@ -10057,7 +10056,7 @@ PrefabInstance:
     - target: {fileID: 5731473688061927420, guid: 106da5c23f369284088123d3f1c20ec2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 86.9
+      value: 94.7
       objectReference: {fileID: 0}
     - target: {fileID: 5731473688061927420, guid: 106da5c23f369284088123d3f1c20ec2,
         type: 3}
